@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" alt="stylesheet">
+    <title>Product Grid</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: pink;
+        }
+        header {
+            background-color: white;
+            text-align: center;
+            border: 3px solid black;
+        }
+        h1  {
+            font-family: sans-serif;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+        .product {
+            border: 2px solid black;
+            padding: 20px;
+            text-align: center;
+            font-family: Courier New;
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+
+    <header>
+        <h1>
+           Lego Product Grid 
+        </h1>
+    </header>
+    
+    <main>
+    <div class="product-grid">
+        <div class="product">
+                <a href="https://www.lego.com/en-us/product/great-pyramid-of-giza-21058"><image src="images/lego pyramid.png"></image></a>
+                <h3>Great Pyramid of Giza Lego Set</h3>
+                <p>$129.99</p>
+                <p>| Great Pryamid of Giza Lego Replica | Aged 18+ | 1,476 Pieces |</p>
+        </div>
+        
+        <div class="product">
+            <a href="https://www.lego.com/en-us/product/orchid-10311"><image src="images/lego orchid.png"></image></a>
+            <h3>Orchid Lego Set</h3>
+            <p>$49.99</p>
+            <p>| Bouquet of Lego Orhicds | Aged 18+ | 608 Pieces |</p>
+        </div>
+
+        <div class="product">
+            <a href="https://www.lego.com/en-us/product/tree-house-21318"><image src="images/lego treehouse.png"></image></a>
+            <h3>Threehouse Lego Set</h3>
+            <p>$249.99</p>
+            <p>| Treehouse Legos | Aged 16+ | 3036 Pieces |</p>
+        </div>
+
+        <div class="product">
+            <a href="https://www.lego.com/en-us/product/2022-ford-gt-42154"><image src="images/lego ford gt.webp"></image></a>
+            <h3>Ford GT Lego Set</h3>
+            <p>$119.99</p>
+            <p>| 2022 Ford GT Mustang | Aged 18+ | 1466 Pieces |</p>
+        </div>
+
+        <div class="product">
+            <a href="https://www.lego.com/en-us/product/r2-d2-75308"><image src="images/lego R2 D2.png"></image></a>
+            <h3>R2 D2 Lego Set</h3>
+            <p>$239.99</p>
+            <p>| Lego Replica of Star Wars character R2 D2 | Aged 18+ | 2314 Pieces |</p>
+        </div>
+
+        <div class="product">
+            <a href="https://www.lego.com/en-us/product/taj-mahal-21056"><image src="images/taj mahal.png"></image></a>
+            <h3>Taj Mahal Lego Set</h3>
+            <p>$119.99</p>
+            <p>| Taj Mahal Lego Replica | Aged 18+ | 2022 Pieces |</p>
+        </div>
+
+        <div class="product">
+            <a href="https://www.lego.com/en-us/product/bonsai-tree-10281"><image src="images/bonsai tree.png"></image></a>
+            <h3>Bonsai Tree Lego Set</h3>
+            <p>$49.99</p>
+            <p>| Cute Bonsai Tree Lego Replica | Aged 18+ | 878 Pieces |</p>
+        </div>
+
+        <div class="product">
+            <a href="https://www.lego.com/en-us/product/vincent-van-gogh-the-starry-night-21333"><image src="images/starry night.png"></image></a>
+            <h3>The Starry Night Lego Set</h3>
+            <p>$169.99</p>
+            <p>| Vincent Van Gogh's "The Starry Night" Lego Replica | Aged 18+ | 2316 Pieces |</p>
+        </div>
+    </div>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+@media screen and (max-width: 320px) {
+    body {
+        background-color: pink;
+    }
+}
+
+@media screen and (max-width:768px) {
+    body {
+        background-color: pink;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    body {
+        background-color: pink;
+    }
+}
+    
+body {
+    background-color: pink;
+}
+header {
+    background-color: white;
+    text-align: center;
+    border: 3px solid black;
+}
+h1  {
+    font-family: sans-serif;
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.product {
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    font-family: Courier New;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
